@@ -99,32 +99,35 @@ public class PlayerController : MonoBehaviour
             if (objColor.Equals(red)) 
             {
                 count[0] += 1;
+                gameObject.GetComponent<Renderer>().material.color = red;
             } 
             else if (objColor.Equals(orange))
             {
                 count[1] += 1;
+                gameObject.GetComponent<Renderer>().material.color = orange;
             }
             else if (objColor.Equals(yellow))
             {
                 count[2] += 1;
+                gameObject.GetComponent<Renderer>().material.color = yellow;
             }
             else if (objColor.Equals(green))
             {
                 count[3] += 1;
+                gameObject.GetComponent<Renderer>().material.color = green;
             }
             else if (objColor.Equals(blue))
             {
                 count[4] += 1;
+                gameObject.GetComponent<Renderer>().material.color = blue;
             }
             else if (objColor.Equals(purple))
             {
                 count[5] += 1;
+                gameObject.GetComponent<Renderer>().material.color = purple;
             }
 
             SetCountText();
         }
     }
-
-
-
 }
