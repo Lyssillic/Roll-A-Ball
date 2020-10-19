@@ -17,9 +17,5 @@ public class CameraController : MonoBehaviour
     void LateUpdate()
     {
         transform.position = player.transform.position + offset;
-        // if (Input.GetKeyDown(KeyCode.R))
-        // {
-        //     transform.Rotate(new Vector​3(0.0f, 5.0f, 0.0f));
-        // }
     }
 }
